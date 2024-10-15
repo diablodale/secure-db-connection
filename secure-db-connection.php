@@ -3,10 +3,10 @@
  * Plugin name: Secure DB Connection
  * Plugin URI: http://wordpress.org/plugins/secure-db-connection/
  * Description: Sets SSL keys and certs for encrypted database connections
- * Author: Xiao Yu
+ * Author: Xiao Yu, Dale Phurrough
  * Author URI: http://xyu.io/
  * Text Domain: secure-db-connection
- * Version: 1.1.5
+ * Version: 1.1.7
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

@@ -1,11 +1,11 @@
 === Secure DB Connection ===
-Contributors: HypertextRanch
+Contributors: HypertextRanch, Dale Phurrough
 Tags: db, mysql, secure, encrypted, ssl
 Donate link: https://cash.me/$xyu
 Requires at least: 4.9
 Tested up to: 4.9.6
 Requires PHP: 5.2.4
-Stable tag: 1.1.6
+Stable tag: 1.1.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -89,6 +89,12 @@ Aside from setting the normal MySQL connection parameters the minimum configs to
 1. An at a glance item is added showing the status of the MySQL connection when this plugin is activated. If the connection is encrypted the SSL version and cipher used will also be shown.
 
 == Changelog ==
+
+= 1.1.7
+
+  * sync db_connect() with wp v6.6.2 code
+  * removes fallback to mysql_ functions
+  * fixes mysqli exceptions https://core.trac.wordpress.org/changeset/51582
 
 = 1.1.6 =
 
